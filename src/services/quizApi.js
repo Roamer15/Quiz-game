@@ -1,4 +1,4 @@
-const QUIZ_URL = 'https://opentdb.com/api.php?amount=10&difficulty=hard&type=boolean'
+const QUIZ_URL = 'https:opentdb.com/api.php?amount=10&difficulty=hard&type=boolean'
 
 export const fetchQuestions = async () => {
     try {
