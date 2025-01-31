@@ -258,19 +258,23 @@ button:focus-visible {
 
 /* Restart button */
 .btn {
-  display: inline-block;
-  padding: 12px 20px;
+  display: flex;
+  padding: 1rem 2rem;
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  background: #4a90e2;
+  justify-content: space-between;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
   margin-top: 15px;
   transition: background 0.3s ease;
 }
 
-.btn:hover {
-  background: #357abf;
+.top {
+  width: 100%;
+}
+
+.btn-restart {
+  background-color: #4a90e2;
+  color: #fff;
 }
